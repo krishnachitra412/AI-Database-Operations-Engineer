@@ -1,0 +1,5 @@
+2026-06-29 14:44:17,077 - INFO - Pipeline execution started
+2026-06-29 14:44:17,183 - ERROR - Pipeline failed: 'str' object has no attribute 'iterrows'
+2026-06-29 15:59:26,846 - INFO - Pipeline execution started
+2026-06-29 15:59:26,912 - INFO - Pipeline completed with 2 incidents
+2026-06-29 16:06:42,836 - INFO - Pipeline started

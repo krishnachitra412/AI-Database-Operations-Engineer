@@ -1,5 +1,5 @@
-from src.core.pipeline import run_pipeline
 from src.utils.logger import log_info, log_error
+from src.core.pipeline import run_pipeline
 
 def execute():
 
@@ -8,10 +8,10 @@ def execute():
 
         result = run_pipeline()
 
-        log_info(f"Pipeline completed with {len(result['incidents'])} incidents")
+        log_info("Pipeline execution completed")
 
         return result
 
     except Exception as e:
-        log_error(f"Pipeline failed: {str(e)}")
+        log_error(str(e))
         raise
